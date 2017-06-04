@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="yCQN0v" name="WebAPIDemo" projectType="guiapp" version="0.0.1"
+              bundleIdentifier="com.jrlanglois.webapi" includeBinaryInAppConfig="1"
+              jucerVersion="5.0.2" companyName="jrlanglois" defines="JUCE_EXCEPTIONS_DISABLED=1&#10;JUCE_COREAUDIO_LOGGING_ENABLED=1&#10;JUCE_WASAPI_LOGGING=1&#10;JACK_LOGGING_ENABLED=1"
+              companyWebsite="https://github.com/jrlanglois/WebAPI" companyEmail="joel.r.langlois@gmail.com"
+              displaySplashScreen="1" reportAppUsage="1" splashScreenColour="Light">
+  <MAINGROUP id="JOCKzz" name="WebAPIDemo">
+    <GROUP id="{B32C3E53-F0B0-7853-BA9B-A45794B32D5B}" name="Source">
+      <FILE id="p9zfUo" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="aMXjI2" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="FjQheI" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="Y9pLTu" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="UKb1eP" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" vst3Folder="" extraCompilerFlags="-Wall&#10;-Wconstant-conversion&#10;-Wconversion&#10;-Wextra-semi&#10;-Wint-conversion&#10;-Wnewline-eof&#10;-Wno-missing-field-initializers&#10;-Wnon-virtual-dtor&#10;-Woverloaded-virtual&#10;-Wreorder&#10;-Wshadow&#10;-Wshorten-64-to-32&#10;-Wsign-compare&#10;-Wsign-conversion&#10;-Wstrict-aliasing&#10;-Wuninitialized&#10;-Wunused-parameter"
+               smallIcon="TP58je" bigIcon="tvYiza" customPList="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;&#10;&lt;plist version=&quot;1.0&quot;&gt;&#10;&lt;dict&gt;&#10;&#9;&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;&#10;&#9;&lt;dict&gt;&#10;&#9;&#9;&lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;&#10;&#9;&#9;&lt;true/&gt;&#10;&#9;&lt;/dict&gt;&#10;&#9;&lt;key&gt;CFBundleExecutable&lt;/key&gt;&#10;&#9;&lt;string&gt;${EXECUTABLE_NAME}&lt;/string&gt;&#10;&#9;&lt;key&gt;CFBundleIconFile&lt;/key&gt;&#10;&#9;&lt;string&gt;Icon.icns&lt;/string&gt;&#10;&#9;&lt;key&gt;CFBundleIdentifier&lt;/key&gt;&#10;&#9;&lt;string&gt;$(PRODUCT_BUNDLE_IDENTIFIER)&lt;/string&gt;&#10;&#9;&lt;key&gt;CFBundleName&lt;/key&gt;&#10;&#9;&lt;string&gt;DAW&lt;/string&gt;&#10;&#9;&lt;key&gt;CFBundleDisplayName&lt;/key&gt;&#10;&#9;&lt;string&gt;DAW&lt;/string&gt;&#10;&#9;&lt;key&gt;CFBundlePackageType&lt;/key&gt;&#10;&#9;&lt;string&gt;APPL&lt;/string&gt;&#10;&#9;&lt;key&gt;CFBundleSignature&lt;/key&gt;&#10;&#9;&lt;string&gt;????&lt;/string&gt;&#10;&#9;&lt;key&gt;CFBundleShortVersionString&lt;/key&gt;&#10;&#9;&lt;string&gt;0.3.0&lt;/string&gt;&#10;&#9;&lt;key&gt;CFBundleVersion&lt;/key&gt;&#10;&#9;&lt;string&gt;0.3.0&lt;/string&gt;&#10;&#9;&lt;key&gt;NSHumanReadableCopyright&lt;/key&gt;&#10;&#9;&lt;string&gt;AudioWorks&lt;/string&gt;&#10;&#9;&lt;key&gt;NSHighResolutionCapable&lt;/key&gt;&#10;&#9;&lt;true/&gt;&#10;&lt;/dict&gt;&#10;&lt;/plist&gt;">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="WebAPIDemo"
+                       osxSDK="default" osxCompatibility="default" osxArchitecture="64BitUniversal"
+                       headerPath="../../Source" cppLanguageStandard="c++11"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="WebAPIDemo"
+                       osxSDK="default" osxCompatibility="default" osxArchitecture="64BitUniversal"
+                       headerPath="../../Source" cppLanguageStandard="c++11"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_utils" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_product_unlocking" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="webapi_facebook" path="../modules"/>
+        <MODULEPATH id="webapi_twitter" path="../modules"/>
+        <MODULEPATH id="webapi_core" path="../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2013 targetFolder="Builds/VisualStudio2013" vst3Folder="" toolset="v120_xp"
+            smallIcon="TP58je" bigIcon="tvYiza" rtasFolder="" aaxFolder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="WebAPIDemo" headerPath="../../Source"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="WebAPIDemo" headerPath="../../Source"/>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="WebAPIDemo" headerPath="../../Source"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="WebAPIDemo" headerPath="../../Source"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_utils" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_product_unlocking" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="webapi_facebook" path="../modules"/>
+        <MODULEPATH id="webapi_twitter" path="../modules"/>
+        <MODULEPATH id="webapi_core" path="../modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <VS2015 targetFolder="Builds/VisualStudio2015" vst3Folder="" toolset="v140_xp"
+            smallIcon="TP58je" bigIcon="tvYiza" rtasFolder="" aaxFolder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="WebAPIDemo" headerPath="../../Source"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="WebAPIDemo" headerPath="../../Source"/>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="WebAPIDemo" headerPath="../../Source"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="WebAPIDemo" headerPath="../../Source"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_utils" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_product_unlocking" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="webapi_facebook" path="../modules"/>
+        <MODULEPATH id="webapi_twitter" path="../modules"/>
+        <MODULEPATH id="webapi_core" path="../modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <CODEBLOCKS_WINDOWS targetFolder="Builds/CodeBlocksWindows" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" windowsCodeBlocksArchitecture="-m32" isDebug="1"
+                       optimisation="1" targetName="WebAPIDemo"/>
+        <CONFIGURATION name="Release" windowsCodeBlocksArchitecture="-m32" isDebug="0"
+                       optimisation="3" targetName="WebAPIDemo"/>
+        <CONFIGURATION name="Debug" windowsCodeBlocksArchitecture="-m64" isDebug="1"
+                       optimisation="1" targetName="WebAPIDemo"/>
+        <CONFIGURATION name="Release" windowsCodeBlocksArchitecture="-m64" isDebug="0"
+                       optimisation="3" targetName="WebAPIDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_product_unlocking" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../submodules/JUCE/modules"/>
+        <MODULEPATH id="webapi_facebook" path="../modules"/>
+        <MODULEPATH id="webapi_twitter" path="../modules"/>
+        <MODULEPATH id="webapi_core" path="../modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS_WINDOWS>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_product_unlocking" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="webapi_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="webapi_facebook" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="webapi_twitter" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_USE_OGGVORBIS="enabled" JUCE_USE_MP3AUDIOFORMAT="enabled"
+               JUCE_PLUGINHOST_VST="enabled" JUCE_PLUGINHOST_VST3="enabled"
+               JUCE_PLUGINHOST_AU="enabled" JUCE_USE_FLAC="enabled" JUCE_USE_LAME_AUDIO_FORMAT="enabled"
+               JUCE_USE_WINDOWS_MEDIA_FORMAT="disabled" JUCE_USE_CDREADER="enabled"
+               JUCE_WEB_BROWSER="enabled" JUCE_ENABLE_LIVE_CONSTANT_EDITOR="enabled"
+               JUCE_DIRECTSHOW="enabled" JUCE_MEDIAFOUNDATION="enabled" JUCE_QUICKTIME="disabled"
+               JUCE_USE_CAMERA="disabled" JUCE_ASIO="disabled" JUCE_WASAPI="enabled"
+               JUCE_WASAPI_EXCLUSIVE="enabled" JUCE_DIRECTSOUND="enabled" JUCE_ALSA="enabled"
+               JUCE_JACK="enabled" JUCE_USE_ANDROID_OPENSLES="enabled" JUCE_USE_CDBURNER="enabled"
+               JUCE_EXECUTE_APP_SUSPEND_ON_IOS_BACKGROUND_TASK="enabled" JUCE_CHECK_MEMORY_LEAKS="enabled"
+               JUCE_INCLUDE_ZLIB_CODE="enabled" JUCE_USE_CURL="disabled" JUCE_CATCH_UNHANDLED_EXCEPTIONS="disabled"
+               JUCE_ALLOW_STATIC_NULL_VARIABLES="disabled" JUCE_USE_WINRT_MIDI="disabled"/>
+  <LIVE_SETTINGS>
+    <OSX/>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

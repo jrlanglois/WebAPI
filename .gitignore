@@ -1,0 +1,21 @@
+#JUCE generated content
+Builds
+BinaryData.h
+BinaryData.cpp
+
+#Windows Temp Cache Files
+[Tt]humbs.db
+ 
+#macOS Finder and whatnot
+.DS_Store
+*.DS_Store
+*.swp
+*~
+
+#Visual Studio Code files
+.vscode/
+
+#Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
